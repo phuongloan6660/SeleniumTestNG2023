@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="FirstTest">
+        <packages>//Run test theo package
+            <package name="anhtester.com.Bai9_TestNGFramework" />
+            <package name="anhtester.com.TestRunXML" />
+        </packages>
+    </test>
+</suite>
